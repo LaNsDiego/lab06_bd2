@@ -1,0 +1,24 @@
+\section{Pregunta 01 – ¿Qué sucede al ejecutar los siguientes comandos?} 
+
+\begin{enumerate}
+\item  STARTUP OPEN\\
+Inicia la instancia, monte y abra la base de datos. Esto se puede hacer en modo no restringido, permitiendo el acceso a todos los usuarios, o en modo restringido, permitiendo el acceso solo para administradores de bases de datos.
+\item  STARTUP MOUNT\\
+Inicia la instancia y monte la base de datos, pero déjela cerrada. Este estado permite ciertas actividades de DBA, pero no permite el acceso general a la base de datos.
+\item  STARTUP NOMOUNT\\
+Inicia la instancia sin montar una base de datos. Esto no permite el acceso a la base de datos y, por lo general, se haría solo para la creación de la base de datos o la recreación de archivos de control.
+\item  STARTUP FORCE\\
+Obliga a la instancia a iniciarse después de un problema de inicio o apagado.
+\item  STARTUP RESTRICT\\
+Puede iniciar una instancia y, opcionalmente, montar y abrir una base de datos, en modo restringido, de modo que la instancia solo esté disponible para el personal administrativo (no para usuarios de bases de datos generales).
+\item  STARTUP RECOVER\\
+Inicie la instancia y haga que la recuperación completa de los medios comience de inmediato.
+\item  SHUTDOWN NORMAL\\
+Para cerrar una base de datos en situaciones normales, use el comando shutdown con la cláusula normal
+\item  SHUTDOWN TRANSACTIONAL\\
+Cuando desee realizar un cierre planificado de una instancia mientras permite que las transacciones activas se completen primero, use el comando shutdown con la cláusula transaccional.
+\item  SHUTDOWN ABORT\\
+Cuando deba cerrar una base de datos abortando transacciones y conexiones de usuario, ejecute el comando shutdown con la cláusula de cancelación
+\item  SHUTDOWN INMEDIATE\\
+Para cerrar una base de datos inmediatamente, use el comando shutdown con la cláusula inmediata.
+\end{enumerate}
