@@ -1,0 +1,209 @@
+\section{Pregunta 02 – En el script lab\_02\_01.sql, se establecen privilegios de sistema, enliste los privilegios de sistema (DDL) utilizados y describa cada uno de ellos. } 
+
+
+\begin{enumerate}
+\item GRANT CREATE ANY CLUSTER TO "DBA1";
+\\ Permite crear clusteres
+\item GRANT CREATE ANY CONTEXT TO "DBA1";
+\\  permite crear contextos
+\item GRANT CREATE ANY DIMENSION TO "DBA1";
+\\  permite  crear dimensiones
+\item GRANT CREATE ANY DIRECTORY TO "DBA1";
+\\  permite crear directorios
+\item GRANT CREATE ANY EVALUATION CONTEXT TO "DBA1" WITH ADMIN OPTION;
+\\  permite evaluar contextos
+\item GRANT CREATE ANY INDEX TO "DBA1";
+\\  permite crear indices
+\item GRANT CREATE ANY INDEXTYPE TO "DBA1";
+\\  permite crear todos los tipos de indices
+\item GRANT CREATE ANY JOB TO "DBA1";
+\\  permite crear jobs
+\item GRANT CREATE ANY LIBRARY TO "DBA1";
+\\  permite crear librerias a nivel de esquema general
+\item GRANT CREATE ANY MATERIALIZED VIEW TO "DBA1";
+\\  permite vistas materializadas a nivel de esquema general
+\item GRANT CREATE ANY OPERATOR TO "DBA1";
+\\  permite crear operaciones a nivel de esquema general
+\item GRANT CREATE ANY OUTLINE TO "DBA1";
+\\  permite crear outlines a nivel de esquema general
+\item GRANT CREATE ANY PROCEDURE TO "DBA1";
+\\  permite crear procedimientos a nivel de esquema general
+\item GRANT CREATE ANY RULE TO "DBA1" WITH ADMIN OPTION;
+\\  permite crear reglas a nivel de esquema general
+\item GRANT CREATE ANY RULE SET TO "DBA1" WITH ADMIN OPTION;
+\\  permite modificar reglas a nivel de esquema general
+\item GRANT CREATE ANY SEQUENCE TO "DBA1";
+\\  permite crear secuencias a nivel de esquema general
+\item GRANT CREATE ANY SQL PROFILE TO "DBA1";
+\\  permite crear perfiles sql a nivel de esquema general
+\item GRANT CREATE ANY SYNONYM TO "DBA1"; 
+\\ permite crear sinonimos para tablas , vistas , secuencia , profecimiento , function almacenada , paquete , vista materializada ,  objeto de esquema y tipo definido  por el usuario a nivel de esquema general
+\item GRANT CREATE ANY TABLE TO "DBA1";
+\\  permite crear tablas a nivel de esquema general
+\item GRANT CREATE ANY TRIGGER TO "DBA1";
+\\  permite crear triggers a nivel de esquema general
+\item GRANT CREATE ANY TYPE TO "DBA1";
+\\  permite crear types a nivel de esquema general
+\item GRANT CREATE ANY VIEW TO "DBA1";
+\\  permite crear vistas a nivel de esquema general
+\item GRANT CREATE CLUSTER TO "DBA1";
+\\  permite crear cluster a nivel de su propio esquema
+\item GRANT CREATE DATABASE LINK TO "DBA1";
+\\  permite crear database link a nivel de su propio esquema
+\item GRANT CREATE DIMENSION TO "DBA1";
+\\  permite crear dimensiones a nivel de su propio esquema
+\item GRANT CREATE EVALUATION CONTEXT TO "DBA1" WITH ADMIN OPTION;
+\\ permite crear un contexto de evaluacion como si fuera usuario de nivel administrador
+\item GRANT CREATE EXTERNAL JOB TO "DBA1";
+\\ permite crear un JOB externo
+\item GRANT CREATE INDEXTYPE TO "DBA1";
+\\ permite crear diferentes tipos de indices
+\item GRANT CREATE JOB TO "DBA1";
+\\ permite crear JOB 
+\item GRANT CREATE LIBRARY TO "DBA1";
+\\ permite crear librerias
+\item GRANT CREATE MATERIALIZED VIEW TO "DBA1";
+\\permite crear vistas MATERIALED 
+\item GRANT CREATE OPERATOR TO "DBA1";
+\\ permite crear operadores
+\item GRANT CREATE PROCEDURE TO "DBA1";
+\\permite crear procedimientos almacenados
+\item GRANT CREATE PROFILE TO "DBA1";
+\\permite crear perfiles
+\item GRANT CREATE PUBLIC DATABASE LINK TO "DBA1";
+\\permite crear crear enlaces publicos a objetos de la base de datos
+\item GRANT CREATE PUBLIC SYNONYM TO "DBA1";
+\\permite crear sinonimos publicos a las tablas
+\item GRANT CREATE ROLE TO "DBA1";
+\\permite crear roles
+\item GRANT CREATE ROLLBACK SEGMENT TO "DBA1";
+\\permite crear segmentos de rollback
+\item GRANT CREATE RULE TO "DBA1" WITH ADMIN OPTION;
+\\permite crear reglas con un nivel de administrador
+\item GRANT CREATE RULE SET TO "DBA1" WITH ADMIN OPTION;
+\\permite crear conjunto de reglas con un nivel de administrador
+\item GRANT CREATE SEQUENCE TO "DBA1";
+\\permite crear secuencias
+\item GRANT CREATE SESSION TO "DBA1";
+\\permite crear sesiones
+\item GRANT CREATE SYNONYM TO "DBA1";
+\\permite crear sinonimos
+\item GRANT CREATE TABLE TO "DBA1";
+\\permite crear tablas
+\item GRANT CREATE TABLESPACE TO "DBA1";
+\\permite crear tablas de espacio
+\item GRANT CREATE TRIGGER TO "DBA1";
+\\permite crear TRIGGER
+\item GRANT CREATE TYPE TO "DBA1";
+\\permite crear TYPE
+\item GRANT CREATE USER TO "DBA1";
+\\permite crear usuarios
+\item GRANT CREATE VIEW TO "DBA1";
+\\permite crear vistas
+\item GRANT ALTER ANY CLUSTER TO "DBA1";
+\\permite modificar cualquier cluster
+\item GRANT ALTER ANY DIMENSION TO "DBA1";
+\\permite modificar cualquier dimension
+\item GRANT ALTER ANY EVALUATION CONTEXT TO "DBA1" WITH ADMIN OPTION;
+\\permite modificar cualquier contexto de evaluacion con un nivel administrador
+\item GRANT ALTER ANY INDEX TO "DBA1";
+\\permite modificar cualquier indice
+\item GRANT ALTER ANY INDEXTYPE TO "DBA1";
+\\permite modificar cualquier tipo de indice
+\item GRANT ALTER ANY LIBRARY TO "DBA1";
+\\permite modificar cualquier libreria
+\item GRANT ALTER ANY MATERIALIZED VIEW TO "DBA1";
+\\permite modificar vistas MATERIALIZED
+\item GRANT ALTER ANY OUTLINE TO "DBA1";
+\\permite modificar cualquier OUTLINE
+\item GRANT ALTER ANY PROCEDURE TO "DBA1";
+\\permite modificar cualquier procedimiento almacenado
+\item GRANT ALTER ANY ROLE TO "DBA1";
+\\permite modificar cualquier rol
+\item GRANT ALTER ANY RULE TO "DBA1" WITH ADMIN OPTION;
+\\permite modificar cualquier regla con un nivel de administrador
+\item GRANT ALTER ANY RULE SET TO "DBA1" WITH ADMIN OPTION;
+\\permite modificar cualquier conjunto de reglas
+\item GRANT ALTER ANY SEQUENCE TO "DBA1";
+\\permite modificar cualquier secuencia
+\item GRANT ALTER ANY SQL PROFILE TO "DBA1";
+\\permite modificar cualquier perfil sql
+\item GRANT ALTER ANY TABLE TO "DBA1";
+\\permite modificar cualquier tabla
+\item GRANT ALTER ANY TRIGGER TO "DBA1";
+\\permite modificar cualquier TRIGGER
+\item GRANT ALTER ANY TYPE TO "DBA1";
+\\permite modificar cualquier TYPE
+\item GRANT ALTER DATABASE TO "DBA1";
+\\permite modificar la base de datos
+\item GRANT ALTER PROFILE TO "DBA1";
+\\permite modificar  perfiles
+\item GRANT ALTER RESOURCE COST TO "DBA1";
+\\permite modificar recurso de formula de costo
+\item GRANT ALTER ROLLBACK SEGMENT TO "DBA1";
+\\permite modificar segmento de rollback
+\item GRANT ALTER SESSION TO "DBA1";
+\\permite modificar sesiones
+\item GRANT ALTER SYSTEM TO "DBA1";
+\\permite modificar a SYSTEM
+\item GRANT ALTER TABLESPACE TO "DBA1";
+\\permite modificar una tabla de espacio
+\item GRANT ALTER USER TO "DBA1";
+\\permite modificar usuarios
+\item GRANT DROP ANY CLUSTER TO "DBA1";
+\\permite eliminar cualquier cluster
+\item GRANT DROP ANY CONTEXT TO "DBA1";
+\\permite eliminar cualquier contexto
+\item GRANT DROP ANY DIMENSION TO "DBA1";
+\\permite eliminar cualquier dimension
+\item GRANT DROP ANY DIRECTORY TO "DBA1";
+\\permite eliminar cualquier directorio
+\item GRANT DROP ANY EVALUATION CONTEXT TO "DBA1" WITH ADMIN OPTION;
+\\permite eliminar cualquier contexto de evaluacion con un nivel de administrador
+\item GRANT DROP ANY INDEX TO "DBA1";
+\\permite eliminar cualquier indice
+\item GRANT DROP ANY INDEXTYPE TO "DBA1";
+\\permite eliminar cualquier tipo de indice
+\item GRANT DROP ANY LIBRARY TO "DBA1";
+\\permite eliminar cualquier libreria
+\item GRANT DROP ANY MATERIALIZED VIEW TO "DBA1";
+\\permite eliminar cualquier vista MATERIALIZED
+\item GRANT DROP ANY OPERATOR TO "DBA1";
+\\permite eliminar cualquier operador
+\item GRANT DROP ANY OUTLINE TO "DBA1";
+\\permite eliminar cualquier OUTLINE
+\item GRANT DROP ANY PROCEDURE TO "DBA1";
+\\permite eliminar cualquier procedimiento almacenado
+\item GRANT DROP ANY ROLE TO "DBA1";
+\\permite eliminar cualquier rol
+\item GRANT DROP ANY RULE TO "DBA1" WITH ADMIN OPTION;
+\\permite eliminar cualquier regla con un nivel de administrador
+\item GRANT DROP ANY RULE SET TO "DBA1" WITH ADMIN OPTION;
+\\permite eliminar cualquier conjunto de reglas con un nivel de administrador
+\item GRANT DROP ANY SEQUENCE TO "DBA1";
+\\permite eliminar cualquier secuencia
+\item GRANT DROP ANY SQL PROFILE TO "DBA1";
+\\permite eliminar cualquier perfil sql
+\item GRANT DROP ANY SYNONYM TO "DBA1";
+\\permite eliminar cualquier sinonimo de tabla
+\item GRANT DROP ANY TABLE TO "DBA1";
+\\permite eliminar cualquier tabla
+\item GRANT DROP ANY TRIGGER TO "DBA1";
+\\permite eliminar cualquier TRIGGER
+\item GRANT DROP ANY TYPE TO "DBA1";
+\\permite eliminar cualquier TYPE
+\item GRANT DROP ANY VIEW TO "DBA1";
+\\permite eliminar cualquier vista
+\item GRANT DROP PROFILE TO "DBA1";
+\\permite eliminar perfiles
+\item GRANT DROP PUBLIC DATABASE LINK TO "DBA1";
+\\permite eliminar enlaces publicos de bases de datos
+\item GRANT DROP PUBLIC SYNONYM TO "DBA1";
+\\permite eliminar sinonimos publicos
+\item GRANT DROP ROLLBACK SEGMENT TO "DBA1";
+\\permite eliminar segmentos de rollback
+\item GRANT DROP TABLESPACE TO "DBA1";
+\\permite eliminar tablas de espacio
+\item GRANT DROP USER TO "DBA1";
+\\permite eliminar usuarios
+\end{enumerate}
